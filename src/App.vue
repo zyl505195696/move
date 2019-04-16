@@ -3,6 +3,7 @@
     <h1 class="top">这是根组件</h1>
       <!--  固定顶部 -->
     <mt-header fixed title="固定在顶部"></mt-header>
+
       <!-- 中间区域 路由入口 -->
     <router-view/>
       <!-- 固定底部 -->
@@ -34,4 +35,5 @@
  .top{
    margin-top: 40px;
  }
+
 </style>

@@ -1,0 +1,16 @@
+
+{
+  "data": {
+    "list": [{
+      "original": "http://47.96.21.88:8086/public/1.png"
+    }, {
+      "original": "http://47.96.21.88:8086/public/2.png"
+    }, {
+      "original": "http://47.96.21.88:8086/public/3.png"
+    }]
+  },
+  "meta": {
+    "status": 200,
+    "msg": "测试数据"
+  }
+}
