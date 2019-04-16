@@ -14,6 +14,6 @@ Vue.component(Header.name, Header)
 Vue.config.productionTip = false
 
 new Vue({
-  router,
+  router, //  挂在路由对象到VM实例上
   render: h => h(App)
 }).$mount('#app')
