@@ -3,7 +3,7 @@
 
     <ul class="mui-table-view">
 				<li class="mui-table-view-cell mui-media" v-for="item in newsList" :key="item.id">
-					<a href="javascript:;">
+					<router-link :to="'/home/newsinfo'+item.id">
 						<img class="mui-media-object mui-pull-left" :src="item.url">
 						<div class="mui-media-body">
 							<h2>{{ item.title }}</h2>
@@ -12,7 +12,7 @@
                 <span>点击{{ item.click }}次</span>
               </p>
 						</div>
-					</a>
+					</router-link>
 				</li>
 
 			</ul>
@@ -25,7 +25,7 @@ import { Toast } from 'mint-ui'
 export default {  // 获取新闻列表
   data () {
     return {
-      newsList:[]
+      newsList:{}
     }
   },
   created () {
