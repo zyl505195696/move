@@ -9,6 +9,7 @@ import SearchContainer from './components/tabbar/SearchContainer.vue'
 // 创建路由对象
 export default new Router({
   routes: [// 配置路由规则的
+    { path: '/', redirect: '/home' },
     { path: '/home', component: HomeContainer },
     { path: '/member', component: MemberContainer },
     { path: '/shopcar', component: ShopcarContainer },

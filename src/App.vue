@@ -1,11 +1,14 @@
 <template>
-  <div id="app">
-    <h1 class="top">这是根组件</h1>
+  <div id="app" class="app-container">
+
       <!--  固定顶部 -->
     <mt-header fixed title="固定在顶部"></mt-header>
 
       <!-- 中间区域 路由入口 -->
-    <router-view/>
+    <transition>
+      <router-view/>
+    </transition>
+
       <!-- 固定底部 -->
 	  <nav class="mui-bar mui-bar-tab">
       <router-link class="mui-tab-item" to="/home">
@@ -32,8 +35,22 @@
 </template>
 
 <style>
- .top{
+ .app-container {
    margin-top: 40px;
+   /* 滚动条问题 */
+   overflow-x: hidden;
  }
-
+ .v-enter {
+  opacity: 0;
+  transform: translateX( 100% );
+ }
+ .v-leave-to {
+  opacity: 0;
+  transform: translateX( -100% );
+  position: absolute
+ }
+ .v-enter-active,
+ .v-leave-active {
+  transition: all 0.5s ease;
+ }
 </style>
