@@ -36,7 +36,8 @@
 
 <style>
  .app-container {
-   margin-top: 40px;
+   padding-top: 40px;
+   padding-bottom: 50px;
    /* 滚动条问题 */
    overflow-x: hidden;
  }

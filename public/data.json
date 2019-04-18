@@ -1,5 +1,13 @@
 
 {
+
+
+
+  "meta": {
+    "status": 200,
+    "msg": "测试数据"
+  },
+
   "data": {
     "list": [{
       "original": "http://47.96.21.88:8086/public/1.png"
@@ -7,10 +15,102 @@
       "original": "http://47.96.21.88:8086/public/2.png"
     }, {
       "original": "http://47.96.21.88:8086/public/3.png"
-    }]
-  },
-  "meta": {
-    "status": 200,
-    "msg": "测试数据"
+    }],
+
+
+    "news":[
+      {
+        "id":1,
+        "title":"我是可爱的小猫咪",
+        "zhaiyao":"嘻嘻嘻嘻嘻嘻嘻",
+        "click":2,
+        "url":"http://img2.imgtn.bdimg.com/it/u=1002802991,288060279&fm=26&gp=0.jpg",
+        "time":"2019-01-22T03:05:34.000Z"
+      },
+      {
+        "id":2,
+        "title":"我是猫猫我爱吃鱼",
+        "zhaiyao":"啦啦啦啦啦啦",
+        "click":8,
+        "url":"http://img4.imgtn.bdimg.com/it/u=2793014475,1784807663&fm=26&gp=0.jpg",
+        "time":"2019-02-13T03:05:34.000Z"
+      },
+      {
+        "id":3,
+        "title":"喵喵喵",
+        "zhaiyao":"嘿嘿嘿嘿嘿嘿嘿",
+        "click":3,
+        "url":"http://img5.imgtn.bdimg.com/it/u=2026940202,625203485&fm=26&gp=0.jpg",
+        "time":"2019-02-20T03:05:34.000Z"
+      },
+      {
+        "id":5,
+        "title":"我是可爱的小猫咪",
+        "zhaiyao":"嘻嘻嘻嘻嘻嘻嘻",
+        "click":2,
+        "url":"http://img2.imgtn.bdimg.com/it/u=1002802991,288060279&fm=26&gp=0.jpg",
+        "time":"2019-01-22T03:05:34.000Z"
+      },
+      {
+        "id":10,
+        "title":"我是猫猫我爱吃鱼",
+        "zhaiyao":"啦啦啦啦啦啦",
+        "click":8,
+        "url":"http://img4.imgtn.bdimg.com/it/u=2793014475,1784807663&fm=26&gp=0.jpg",
+        "time":"2019-02-13T03:05:34.000Z"
+      },
+      {
+        "id":6,
+        "title":"喵喵喵",
+        "zhaiyao":"嘿嘿嘿嘿嘿嘿嘿",
+        "click":3,
+        "url":"http://img5.imgtn.bdimg.com/it/u=2026940202,625203485&fm=26&gp=0.jpg",
+        "time":"2019-02-20T03:05:34.000Z"
+      },
+      {
+        "id":7,
+        "title":"我是可爱的小猫咪",
+        "zhaiyao":"嘻嘻嘻嘻嘻嘻嘻",
+        "click":2,
+        "url":"http://img2.imgtn.bdimg.com/it/u=1002802991,288060279&fm=26&gp=0.jpg",
+        "time":"2019-01-22T03:05:34.000Z"
+      },
+      {
+        "id":8,
+        "title":"我是猫猫我爱吃鱼",
+        "zhaiyao":"啦啦啦啦啦啦",
+        "click":8,
+        "url":"http://img4.imgtn.bdimg.com/it/u=2793014475,1784807663&fm=26&gp=0.jpg",
+        "time":"2019-02-13T03:05:34.000Z"
+      },
+      {
+        "id":9,
+        "title":"喵喵喵",
+        "zhaiyao":"嘿嘿嘿嘿嘿嘿嘿",
+        "click":3,
+        "url":"http://img5.imgtn.bdimg.com/it/u=2026940202,625203485&fm=26&gp=0.jpg",
+        "time":"2019-02-20T03:05:34.000Z"
+      },
+       {
+        "id":98,
+        "title":"我是猫猫我爱吃鱼",
+        "zhaiyao":"啦啦啦啦啦啦",
+        "click":8,
+        "url":"http://img4.imgtn.bdimg.com/it/u=2793014475,1784807663&fm=26&gp=0.jpg",
+        "time":"2019-02-13T03:05:34.000Z"
+      },
+      {
+        "id":99,
+        "title":"喵喵喵",
+        "zhaiyao":"嘿嘿嘿嘿嘿嘿嘿",
+        "click":3,
+        "url":"http://img5.imgtn.bdimg.com/it/u=2026940202,625203485&fm=26&gp=0.jpg",
+        "time":"2019-02-20T03:05:34.000Z"
+      }
+    ]
   }
+
+
+
+
 }

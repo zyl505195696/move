@@ -8,9 +8,9 @@
     </mt-swipe>
     <!-- 九宫格区域 -->
     <ul class="mui-table-view mui-grid-view mui-grid-9">
-      <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
+      <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><router-link to="/home/newslist">
               <img src="../../images/menu1.png" alt="">
-              <div class="mui-media-body"> 新闻咨询</div></a></li>
+              <div class="mui-media-body"> 新闻咨询</div></router-link></li>
        <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
               <img src="../../images/menu2.png" alt="">
               <!-- <span class="mui-badge">5</span></span> -->
